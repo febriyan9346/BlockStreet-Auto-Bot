@@ -19,15 +19,74 @@
 
 ## 📸 Bot in Action
 
-The screenshot above shows the bot successfully executing:
-- ✅ Authentication and login
-- ✅ Daily check-in completion
-- ✅ 5 automated token swaps (COIN→TSLA, AAPL→MSFT, MON→BSD, MSTR→BSD, CRCL→NVDA)
-- ✅ Supply operations (0.001457 CRCL)
-- ✅ Withdraw operations (0.001206 CRCL)
-- ✅ Borrow operations (0.001058 MSTR)
-- ✅ Repay operations (0.001191 AAPL)
-- ✅ 24-hour cycle countdown timer
+![Bot Demo](./assets/bot-demo.png)
+
+### Successful Execution Example
+
+The screenshot above demonstrates a complete successful run of **Auto All Operations** (Option 7):
+
+#### 🔐 Authentication Phase
+```
+13:18:00 [W1] 🔄 Generating signature...
+13:18:00 [W1] 🔄 Authenticating with server...
+13:18:00 [W1] ✅ Authentication successful ✓
+```
+
+#### ✅ Daily Check-in
+```
+13:18:00 [W1] 🔄 Daily check-in...
+13:18:00 [W1] ✅ Daily check-in complete
+```
+
+#### 🔄 Automated Token Swaps (5 swaps)
+```
+13:18:00 [W1] 🔄 Executing 5 swaps...
+13:18:00 [W1] ✅ Swap 1/5: 0.001046 COIN → 0.000787 TSLA
+13:18:10 [W1] ✅ Swap 2/5: 0.001395 AAPL → 0.000729 MSFT
+13:18:16 [W1] ✅ Swap 3/5: 0.001489 MON → 0.000057 BSD
+13:18:26 [W1] ✅ Swap 4/5: 0.001337 MSTR → 0.003608 BSD
+13:18:32 [W1] ✅ Swap 5/5: 0.001364 CRCL → 0.000855 NVDA
+```
+
+#### 📈 Supply Operation
+```
+13:18:41 [W1] 🔄 Executing 1 Supply(s)...
+13:18:41 [W1] ✅ Supply 1/1: 0.001457 CRCL
+```
+
+#### 📉 Withdraw Operation
+```
+13:18:49 [W1] 🔄 Executing 1 Withdraw(s)...
+13:18:49 [W1] ✅ Withdraw 1/1: 0.001206 CRCL
+```
+
+#### 💳 Borrow Operation
+```
+13:18:57 [W1] 🔄 Executing 1 Borrow(s)...
+13:18:57 [W1] ✅ Borrow 1/1: 0.001058 MSTR
+```
+
+#### 🔁 Repay Operation
+```
+13:19:05 [W1] 🔄 Executing 1 Repay(s)...
+13:19:05 [W1] ✅ Repay 1/1: 0.001191 AAPL
+```
+
+#### ✅ Completion & Next Cycle
+```
+13:19:12 [W1] ✅ All operations completed
+13:19:17 [SYS] ✅ Daily run completed for all wallets
+13:19:17 [SYS] Waiting 24 hours for next run...
+⏳ Next run in: 23:59:47
+```
+
+### What This Shows:
+- ✅ **100% Success Rate** - All operations completed without errors
+- ⚡ **Fast Execution** - Entire cycle completed in ~72 seconds
+- 🔒 **Security** - All amounts within safe limits (0.001-0.0015)
+- 🎯 **Automation** - No manual intervention required
+- ⏰ **24h Cycle** - Automatically repeats daily
+- 💯 **Reliability** - Stable operation with proper error handling
 
 ## ✨ Features
 
