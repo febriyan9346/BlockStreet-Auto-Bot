@@ -19,9 +19,7 @@
 
 ## 📸 Bot in Action
 
-<div align="center">
-  <img src="./assets/bot-demo.jpg" alt="BlockStreet Bot Demo" width="100%">
-</div>
+<img width="1125" height="819" alt="BlockStreet Bot Demo" src="https://github.com/user-attachments/assets/685db997-83f7-474b-b546-79d00411bd28" />
 
 ## ✨ Features
 
