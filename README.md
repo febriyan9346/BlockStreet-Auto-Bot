@@ -397,12 +397,6 @@ Need help? Here's how to get support:
 - 💬 **Questions**: Check [existing issues](https://github.com/febriyan9346/BlockStreet-Auto-Bot/issues) first
 - 📧 **Discussions**: [Join discussion](https://github.com/febriyan9346/BlockStreet-Auto-Bot/discussions)
 
-## 🌟 Star History
-
-If you find this bot useful, please consider giving it a ⭐!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=febriyan9346/BlockStreet-Auto-Bot&type=Date)](https://star-history.com/#febriyan9346/BlockStreet-Auto-Bot&Date)
-
 ## 🙏 Acknowledgments
 
 - [Web3.py](https://web3py.readthedocs.io/) - Ethereum Python library
