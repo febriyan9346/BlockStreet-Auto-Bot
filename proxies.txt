@@ -1,16 +1,3 @@
-# ============================================
-# Proxy Configuration (Optional)
-# ============================================
-# 
-# Supported formats:
-# host:port:username:password
-# http://username:password@host:port
-# host:port
-#
-# Examples:
-# proxy1.example.com:8080:user123:pass456
-# http://user123:pass456@proxy2.example.com:8080
-# proxy3.example.com:8080
-# ============================================
-
-# Add your proxies below (one per line):
+host:port:username:password
+http://username:password@host:port
+host:port
