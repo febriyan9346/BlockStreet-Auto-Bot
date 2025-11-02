@@ -19,7 +19,7 @@
 
 ## 📸 Bot in Action
 
-
+![Bot in Action](./assets/IMG_4090.jpeg)
 
 ## ✨ Features
 
