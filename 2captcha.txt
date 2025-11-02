@@ -1,0 +1,14 @@
+# ============================================
+# 2Captcha API Key Configuration
+# ============================================
+# 
+# Get your API key from: https://2captcha.com
+# 
+# Instructions:
+# 1. Register at https://2captcha.com
+# 2. Add funds to your account
+# 3. Copy your API key from dashboard
+# 4. Paste it below (replace this entire comment)
+# ============================================
+
+your_2captcha_api_key_here

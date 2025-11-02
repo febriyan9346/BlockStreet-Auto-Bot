@@ -1,0 +1,20 @@
+# ============================================
+# Private Keys Configuration
+# ============================================
+# 
+# Format: privatekey:WalletName
+# 
+# IMPORTANT SECURITY NOTES:
+# - NEVER share this file with anyone
+# - NEVER commit this file to git (already in .gitignore)
+# - Use dedicated wallets with small amounts only
+# - Keep backup in secure location
+# - Remove 0x prefix (bot adds it automatically)
+#
+# Example:
+# 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef:Wallet1
+# abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890:Wallet2
+# ============================================
+
+# Add your private keys below (one per line):
+your_private_key_here:Wallet1
