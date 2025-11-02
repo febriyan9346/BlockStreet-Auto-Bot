@@ -19,7 +19,8 @@
 
 ## 📸 Bot in Action
 
-![Bot in Action](./assets/IMG_4090.jpeg)
+![image](https://github.com/user-attachments/assets/ce318cd5-43bb-4bf5-90c0-6eee339b269e)
+
 
 ## ✨ Features
 
